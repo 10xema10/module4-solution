@@ -19,7 +19,7 @@
     <meta http-equiv="Content-Language" content="en">
     <meta name="viewport" content="width=device-width">
     
-    <title>fullstack-course4/index.html at master · jhu-ep-coursera/fullstack-course4</title>
+    <title>fullstack-course4/SpeakHello.js at master · jhu-ep-coursera/fullstack-course4</title>
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
     <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
@@ -39,10 +39,10 @@
       <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
     <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
     <link rel="assets" href="https://assets-cdn.github.com/">
-    <link rel="web-socket" href="wss://live.github.com/_sockets/MjMyNDYyMzA6YmVjZGY3MGI4YTE5MmYxM2U4ZmFkNTJhYjhhZmZlYTg6MTg3ZWUwMTAwZTI1Y2Y3NmNhYjQzNmEzNDZlZTZmZDEzOWU2OTRlMzgwZTkyY2Y4NGJjNzYyMDRjMDcxYTJlYw==--70618ce17dd1c575c44ea01ec87d090f0c9844bc">
+    <link rel="web-socket" href="wss://live.github.com/_sockets/MjMyNDYyMzA6YmVjZGY3MGI4YTE5MmYxM2U4ZmFkNTJhYjhhZmZlYTg6MjVmZDQ2Nzg0YTQ1MjVhNjdjZThmNjU0MzlkN2E5OGY1OTZhYWYwODFjMDkwYTUyN2VjNTE2M2Q0ZGRlNmNhYQ==--f02fa96554e82817e9e7eb3e94cdada2e72e9f9a">
     <meta name="pjax-timeout" content="1000">
     <link rel="sudo-modal" href="/sessions/sudo_modal">
-    <meta name="request-id" content="580A9464:1560D:288C9067:58404B7E" data-pjax-transient>
+    <meta name="request-id" content="580A9464:1560D:288C9041:58404B7D" data-pjax-transient>
 
     <meta name="msapplication-TileImage" content="/windows-tile.png">
     <meta name="msapplication-TileColor" content="#ffffff">
@@ -52,7 +52,7 @@
 <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="580A9464:1560D:288C9067:58404B7E" name="octolytics-dimension-request_id" /><meta content="23246230" name="octolytics-actor-id" /><meta content="10xema10" name="octolytics-actor-login" /><meta content="059f42cb66b49bef7974f2eb1ab494501dfbebc72a9c896461cb919f9780ad2e" name="octolytics-actor-hash" />
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="580A9464:1560D:288C9041:58404B7D" name="octolytics-dimension-request_id" /><meta content="23246230" name="octolytics-actor-id" /><meta content="10xema10" name="octolytics-actor-login" /><meta content="059f42cb66b49bef7974f2eb1ab494501dfbebc72a9c896461cb919f9780ad2e" name="octolytics-actor-hash" />
 <meta content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" name="analytics-location" />
 
 
@@ -65,7 +65,7 @@
     <meta name="user-login" content="10xema10">
 
         <meta name="expected-hostname" content="github.com">
-      <meta name="js-proxy-site-detection-payload" content="YWIxZjJlNTY3ODNmMzMyOGY5YWMxNTJkYzhmMjI2Njc3ZjZkNGRiNDUzNGU3ZDY2NmJkZTA5MTU0MGEyY2RiNXx7InJlbW90ZV9hZGRyZXNzIjoiODguMTAuMTQ4LjEwMCIsInJlcXVlc3RfaWQiOiI1ODBBOTQ2NDoxNTYwRDoyODhDOTA2Nzo1ODQwNEI3RSIsInRpbWVzdGFtcCI6MTQ4MDYwODY0MywiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+      <meta name="js-proxy-site-detection-payload" content="ZTVkMzgyYWVkNWI5YjMwYzg4MTllOGRiZTllNzliOGEzYTNkYzk4YzE0NmQwMGM2MDgzOGE5YTIzMDE4YjJhYXx7InJlbW90ZV9hZGRyZXNzIjoiODguMTAuMTQ4LjEwMCIsInJlcXVlc3RfaWQiOiI1ODBBOTQ2NDoxNTYwRDoyODhDOTA0MTo1ODQwNEI3RCIsInRpbWVzdGFtcCI6MTQ4MDYwODYzOCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
 
 
       <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
@@ -85,7 +85,7 @@
   <link href="https://github.com/jhu-ep-coursera/fullstack-course4/commits/master.atom" rel="alternate" title="Recent Commits to fullstack-course4:master" type="application/atom+xml">
 
 
-      <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" data-pjax-transient>
+      <link rel="canonical" href="https://github.com/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" data-pjax-transient>
   </head>
 
 
@@ -224,7 +224,7 @@
           Settings
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="ETlpaNL+nVqURkBO/H4r5PwjRG8LmRlzw47k29ZuUNl/HcQVolBrhthMPivdgBLuDw/Ae8qFWLh0X/0bntTxdA==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/logout" class="logout-form" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="GM+cYNBHxz1ApTyhyzTDE6uUpQWUz35wOKCJ18BjWy126zEdoOkx4QyvQsTqyvoZWLghEVXTP7uPcZAXiNn6gA==" /></div>
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -260,7 +260,7 @@
 <ul class="pagehead-actions">
 
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="UFtDpDsmwlM2CQeVLgy9p4v9DLCoEkQagjoY76ZTBhY+f+7ZS4g0j3oDefAP8oSteNGIpGkOBdE16wEv7umnuw==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51732606" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/notifications/subscribe" class="js-social-container" data-autosubmit="true" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="rEWOUQcG2EyCKAhNXhXFXDwvGmd3fvlJTy35Z4EDVMPCYSMsd6gukM4idih/6/xWzwOec7ZiuIL4/OCnybn1bg==" /></div>      <input class="form-control" id="repository_id" name="repository_id" type="hidden" value="51732606" />
 
         <div class="select-menu js-menu-container js-select-menu">
           <a href="/jhu-ep-coursera/fullstack-course4/subscription"
@@ -337,7 +337,7 @@
     
   <div class="js-toggler-container js-social-container starring-container ">
 
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/unstar" class="starred" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kXXbj9olNUNpyLp0+wpjsWl9s+SicK7aDmu1CbL89t//UXbyqovDnyXCxBHa9Fq7mlE38GNs7xG5uqzJ+kZXcg==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/unstar" class="starred" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="QEXaUpcz1tNipyjXtvR4pBr0u5psQlTyr0Nc9pQrrOUuYXcv550gDy6tVrKXCkGu6dg/jq1eFTkYkkU23JENSA==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -351,7 +351,7 @@
           673
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/star" class="unstarred" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="0PeBhklpRkz1P+CT2isBGmLwNN37tNcgpLPtl1Za5yS+0yz7OcewkLk1nvb71TgQkdywyTqolusTYvRXHuBGiQ==" /></div>
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/star" class="unstarred" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="2rUZCQbKsdWjkdgrOH5Gw1fv/NMRSZmKD6ZUN6tNnXy0kbR0dmRHCe+bpk4ZgH/JpMN4x9BV2EG4d0334/c80Q==" /></div>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
@@ -369,7 +369,7 @@
   </li>
 
   <li>
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/fork" class="btn-with-count" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="74Tl3iFb4FJDxadCGHQF7Vq2/4asPK3PdH10us5bAY2BoEijUfUWjg/P2Sc5ijznqZp7km0g7ATDrG16huGgIA==" /></div>
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/fork" class="btn-with-count" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="qgH1P/EfsqgHaNP56+0I+NrE+nnKSmShQDpjKww7gIrEJVhCgbFEdEtirZzKEzHyKeh+bQtWJWr363rrRIEhJw==" /></div>
             <button
                 type="submit"
                 class="btn btn-sm btn-with-count"
@@ -456,9 +456,9 @@
 
     
 
-<a href="/jhu-ep-coursera/fullstack-course4/blob/3364e62c0c297cf3d6413c23f00fa7a0d2a72e9a/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
+<a href="/jhu-ep-coursera/fullstack-course4/blob/3364e62c0c297cf3d6413c23f00fa7a0d2a72e9a/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="d-none js-permalink-shortcut" data-hotkey="y">Permalink</a>
 
-<!-- blob contrib key: blob_contributors:v21:9da43ae6e29649009992005553bb55ca -->
+<!-- blob contrib key: blob_contributors:v21:4cbc58acfae945d483588a4e32488cb9 -->
 
 <div class="file-navigation js-zeroclipboard-container">
   
@@ -500,7 +500,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/jhu-ep-coursera/fullstack-course4/blob/enable-https/assignments/assignment4/assignment4-solution-starter/harder/index.html"
+               href="/jhu-ep-coursera/fullstack-course4/blob/enable-https/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js"
                data-name="enable-https"
                data-skip-pjax="true"
                rel="nofollow">
@@ -510,7 +510,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/jhu-ep-coursera/fullstack-course4/blob/evan-edit/assignments/assignment4/assignment4-solution-starter/harder/index.html"
+               href="/jhu-ep-coursera/fullstack-course4/blob/evan-edit/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js"
                data-name="evan-edit"
                data-skip-pjax="true"
                rel="nofollow">
@@ -520,7 +520,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/jhu-ep-coursera/fullstack-course4/blob/gh-pages/assignments/assignment4/assignment4-solution-starter/harder/index.html"
+               href="/jhu-ep-coursera/fullstack-course4/blob/gh-pages/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js"
                data-name="gh-pages"
                data-skip-pjax="true"
                rel="nofollow">
@@ -530,7 +530,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open "
-               href="/jhu-ep-coursera/fullstack-course4/blob/jasonwr-lecture22-before-fix/assignments/assignment4/assignment4-solution-starter/harder/index.html"
+               href="/jhu-ep-coursera/fullstack-course4/blob/jasonwr-lecture22-before-fix/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js"
                data-name="jasonwr-lecture22-before-fix"
                data-skip-pjax="true"
                rel="nofollow">
@@ -540,7 +540,7 @@
               </span>
             </a>
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/assignment4-solution-starter/harder/index.html"
+               href="/jhu-ep-coursera/fullstack-course4/blob/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -577,7 +577,7 @@
     <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm BtnGroup-item tooltipped tooltipped-s" data-copied-hint="Copied!" type="button">Copy path</button>
   </div>
   <div class="breadcrumb js-zeroclipboard-target">
-    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4"><span>fullstack-course4</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments"><span>assignments</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4"><span>assignment4</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4/assignment4-solution-starter"><span>assignment4-solution-starter</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4/assignment4-solution-starter/harder"><span>harder</span></a></span><span class="separator">/</span><strong class="final-path">index.html</strong>
+    <span class="repo-root js-repo-root"><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4"><span>fullstack-course4</span></a></span></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments"><span>assignments</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4"><span>assignment4</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4/assignment4-solution-starter"><span>assignment4-solution-starter</span></a></span><span class="separator">/</span><span class="js-path-segment"><a href="/jhu-ep-coursera/fullstack-course4/tree/master/assignments/assignment4/assignment4-solution-starter/harder"><span>harder</span></a></span><span class="separator">/</span><strong class="final-path">SpeakHello.js</strong>
   </div>
 </div>
 
@@ -620,9 +620,9 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a href="/jhu-ep-coursera/fullstack-course4/raw/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
-        <a href="/jhu-ep-coursera/fullstack-course4/blame/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="btn btn-sm js-update-url-with-hash BtnGroup-item">Blame</a>
-      <a href="/jhu-ep-coursera/fullstack-course4/commits/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
+      <a href="/jhu-ep-coursera/fullstack-course4/raw/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="btn btn-sm BtnGroup-item" id="raw-url">Raw</a>
+        <a href="/jhu-ep-coursera/fullstack-course4/blame/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="btn btn-sm js-update-url-with-hash BtnGroup-item">Blame</a>
+      <a href="/jhu-ep-coursera/fullstack-course4/commits/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="btn btn-sm BtnGroup-item" rel="nofollow">History</a>
     </div>
 
         <a class="btn-octicon tooltipped tooltipped-nw"
@@ -632,12 +632,12 @@
             <svg aria-hidden="true" class="octicon octicon-device-desktop" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/></svg>
         </a>
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/edit/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="inline-form js-update-url-with-hash" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="C7VBt8by5+cgYu5jOvzJyJcWlal+zwayRwQwQsnvMVFlkezKtlwRO2xokAYbAvDCZDoRvb/TR3nw1SmCgVWQ/A==" /></div>
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/edit/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="inline-form js-update-url-with-hash" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="5V45yWYtLnIXG7YMytzqNFJiKwgBiWHp5rc4l8VB1u+LepS0FoPYrlsRyGnrItM+oU6vHMCVICJRZiFXjft3Qg==" /></div>
           <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and edit the file" data-hotkey="e" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-pencil" height="16" version="1.1" viewBox="0 0 14 16" width="14"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
           </button>
-</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/delete/master/assignments/assignment4/assignment4-solution-starter/harder/index.html" class="inline-form" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="/ErqslVQyf5E+8G99sYgdQIBeBozsNED3uccW3Oiv8ySbkfPJf4/Igjxv9jXOBl/8S38DvKskMhpNgWbOxgeYQ==" /></div>
+</form>        <!-- '"` --><!-- </textarea></xmp> --></option></form><form accept-charset="UTF-8" action="/jhu-ep-coursera/fullstack-course4/delete/master/assignments/assignment4/assignment4-solution-starter/harder/SpeakHello.js" class="inline-form" data-form-nonce="7b1a5adaf2cf39f81e4502cc4b843a04e924e775" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="lNDc0WZThksBa8WX7Xh3k5Y659jjvXFHkPJMuHLSDZr69HGsFv1wl01hu/LMhk6ZZRZjzCKhMIwnI1V4OmisNw==" /></div>
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
             aria-label="Fork this project and delete the file" data-disable-with>
             <svg aria-hidden="true" class="octicon octicon-trashcan" height="16" version="1.1" viewBox="0 0 12 16" width="12"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
@@ -645,79 +645,116 @@
 </form>  </div>
 
   <div class="file-info">
-      17 lines (16 sloc)
+      25 lines (19 sloc)
       <span class="file-info-divider"></span>
-    344 Bytes
+    851 Bytes
   </div>
 </div>
 
   
 
-  <div itemprop="text" class="blob-wrapper data type-html">
+  <div itemprop="text" class="blob-wrapper data type-javascript">
       <table class="highlight tab-size js-file-line-container" data-tab-size="8">
       <tr>
         <td id="L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="LC1" class="blob-code blob-code-inner js-file-line">&lt;!DOCTYPE html&gt;</td>
+        <td id="LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// STEP 2: Wrap the entire contents of SpeakHello.js inside of an IIFE</span></td>
       </tr>
       <tr>
         <td id="L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="LC2" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">html</span>&gt;</td>
+        <td id="LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// See Lecture 52, part 2</span></td>
       </tr>
       <tr>
         <td id="L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="LC3" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC3" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="LC4" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">meta</span> <span class="pl-e">charset</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>utf-8<span class="pl-pds">&quot;</span></span>&gt;</td>
+        <td id="LC4" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="LC5" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">title</span>&gt;Module 4 Solution Starter&lt;/<span class="pl-ent">title</span>&gt;</td>
+        <td id="LC5" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// STEP 3: Create an object, called &#39;helloSpeaker&#39; to which you will attach</span></td>
       </tr>
       <tr>
         <td id="L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC6" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// the &quot;speak&quot; method and which you will expose to the global context</span></td>
       </tr>
       <tr>
         <td id="L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">    <span class="pl-k">var</span> names <span class="pl-k">=</span> []; <span class="pl-c">// DO NOT REMOVE</span></span></td>
+        <td id="LC7" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// See Lecture 52, part 1</span></td>
       </tr>
       <tr>
         <td id="L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC8" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// var helloSpeaker =</span></td>
       </tr>
       <tr>
         <td id="L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="LC9" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>SpeakHello.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC9" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>SpeakGoodBye.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC10" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// DO NOT attach the speakWord variable to the &#39;helloSpeaker&#39; object.</span></td>
       </tr>
       <tr>
         <td id="L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-s1">  &lt;<span class="pl-ent">script</span> <span class="pl-e">src</span>=<span class="pl-s"><span class="pl-pds">&quot;</span>script.js<span class="pl-pds">&quot;</span></span>&gt;&lt;/<span class="pl-ent">script</span>&gt;</span></td>
+        <td id="LC11" class="blob-code blob-code-inner js-file-line"><span class="pl-k">var</span> speakWord <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Hello<span class="pl-pds">&quot;</span></span>;</td>
       </tr>
       <tr>
         <td id="L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="LC12" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">head</span>&gt;</td>
+        <td id="LC12" class="blob-code blob-code-inner js-file-line">
+</td>
       </tr>
       <tr>
         <td id="L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="LC13" class="blob-code blob-code-inner js-file-line">&lt;<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC13" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// STEP 4: Rewrite the &#39;speak&#39; function such that it is attached to the</span></td>
       </tr>
       <tr>
         <td id="L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="LC14" class="blob-code blob-code-inner js-file-line">  &lt;<span class="pl-ent">h1</span>&gt;Module 4 Solution Starter&lt;/<span class="pl-ent">h1</span>&gt;</td>
+        <td id="LC14" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// helloSpeaker object instead of being a standalone function.</span></td>
       </tr>
       <tr>
         <td id="L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="LC15" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">body</span>&gt;</td>
+        <td id="LC15" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// See Lecture 52, part 2</span></td>
       </tr>
       <tr>
         <td id="L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="LC16" class="blob-code blob-code-inner js-file-line">&lt;/<span class="pl-ent">html</span>&gt;</td>
+        <td id="LC16" class="blob-code blob-code-inner js-file-line"><span class="pl-k">function</span> <span class="pl-en">speak</span>(<span class="pl-smi">name</span>) {</td>
+      </tr>
+      <tr>
+        <td id="L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="LC17" class="blob-code blob-code-inner js-file-line">  <span class="pl-en">console</span>.<span class="pl-c1">log</span>(speakWord <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">&quot;</span> <span class="pl-pds">&quot;</span></span> <span class="pl-k">+</span> name);</td>
+      </tr>
+      <tr>
+        <td id="L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="LC18" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+      <tr>
+        <td id="L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="LC19" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="LC20" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// STEP 5: Expose the &#39;helloSpeaker&#39; object to the global scope. Name it</span></td>
+      </tr>
+      <tr>
+        <td id="L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// &#39;helloSpeaker&#39; on the global scope as well.</span></td>
+      </tr>
+      <tr>
+        <td id="L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="LC22" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// See Lecture 52, part 2</span></td>
+      </tr>
+      <tr>
+        <td id="L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// (Note, Step 6 will be done in the SpeakGoodBye.js file.)</span></td>
+      </tr>
+      <tr>
+        <td id="L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="LC24" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// xxxx.xxxx = helloSpeaker;</span></td>
       </tr>
 </table>
 
@@ -758,7 +795,7 @@
       <svg aria-hidden="true" class="octicon octicon-mark-github" height="24" version="1.1" viewBox="0 0 16 16" width="24"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"/></svg>
 </a>
     <ul class="site-footer-links">
-      <li>&copy; 2016 <span title="0.11131s from github-fe-83bc574.cp1-iad.github.net">GitHub</span>, Inc.</li>
+      <li>&copy; 2016 <span title="0.09483s from github-fe150-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
         <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
         <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
         <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
